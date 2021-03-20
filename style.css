@@ -449,8 +449,8 @@ footer{
 }
 
 .brand{
-    width: 270px;
-    height: 25px;
+    width: 250px;
+    height: 20px;
     object-fit: initial;
 }
 
@@ -519,6 +519,10 @@ a:link {
 
 @media screen and (max-width:700px){
 
+    .skill-icon {
+        width: 50px;
+        height: 50px;
+    }
     
 .profile{
     height: auto;
@@ -532,6 +536,7 @@ a:link {
 }
 
     .profile-image{
+        margin: auto;
         display: block;
         width: 200px;
         height: 200px;
